@@ -482,7 +482,10 @@ body {
   .mobile-filters-btn {
     display: flex;
   }
+  .cards-container {
+   grid-template-columns: repeat(1, 1fr);
   
+}
   .desktop-only {
     display: none;
   }
